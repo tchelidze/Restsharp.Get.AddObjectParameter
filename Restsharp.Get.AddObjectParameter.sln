@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restsharp.Get.AddObjectPara
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restsharp.Get.AddObjectParameter.Spec", "Restsharp.Get.AddObjectParameter.Spec\Restsharp.Get.AddObjectParameter.Spec.csproj", "{F45319A4-BA4D-4A9E-8A14-B43123DC68EE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restsharp.Get.AddObjectParameter.Demo", "Restsharp.Get.AddObjectParameter.Demo\Restsharp.Get.AddObjectParameter.Demo.csproj", "{C9163203-2DD3-440F-B4AA-E783EDBC8911}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F45319A4-BA4D-4A9E-8A14-B43123DC68EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F45319A4-BA4D-4A9E-8A14-B43123DC68EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F45319A4-BA4D-4A9E-8A14-B43123DC68EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9163203-2DD3-440F-B4AA-E783EDBC8911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9163203-2DD3-440F-B4AA-E783EDBC8911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9163203-2DD3-440F-B4AA-E783EDBC8911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9163203-2DD3-440F-B4AA-E783EDBC8911}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
