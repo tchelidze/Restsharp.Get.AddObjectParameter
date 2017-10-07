@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restsharp.Get.AddObjectParameter", "Restsharp.Get.AddObjectParameter\Restsharp.Get.AddObjectParameter.csproj", "{370206B3-BC6D-44D3-94CE-1125FC0C4DA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restsharp.Get.AddObjectParameter.Spec", "Restsharp.Get.AddObjectParameter.Spec\Restsharp.Get.AddObjectParameter.Spec.csproj", "{F45319A4-BA4D-4A9E-8A14-B43123DC68EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{370206B3-BC6D-44D3-94CE-1125FC0C4DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370206B3-BC6D-44D3-94CE-1125FC0C4DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370206B3-BC6D-44D3-94CE-1125FC0C4DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370206B3-BC6D-44D3-94CE-1125FC0C4DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F45319A4-BA4D-4A9E-8A14-B43123DC68EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45319A4-BA4D-4A9E-8A14-B43123DC68EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45319A4-BA4D-4A9E-8A14-B43123DC68EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45319A4-BA4D-4A9E-8A14-B43123DC68EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F563B692-B482-4B16-B7F6-7B0054B916B1}
+	EndGlobalSection
+EndGlobal
