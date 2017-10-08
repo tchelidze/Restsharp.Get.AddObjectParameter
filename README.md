@@ -1,5 +1,9 @@
 # Restsharp.Get.AddObjectParameter - Feature rich `RestSharp.RestRequest.AddObject`
 
+# [Nuget](https://www.nuget.org/packages/Restsharp.Get.AddObjectParameter)
+
+   `PM> Install-Package Restsharp.Get.AddObjectParameter`
+
 # Features
 
  - [non public properties as parameter](https://github.com/tchelidze/Restsharp.Get.AddObjectParameter/blob/master/Restsharp.Get.AddObjectParameter.Spec/when_parameter_with_public_and_included_non_public_properties_is_passed.cs)
