@@ -26,7 +26,7 @@ namespace Restsharp.Get.AddObjectParameter.Demo
             public bool ExplicitlyExcludedPrivateProperty { get; } = true;
 
             [ParameterFormatString("F")]
-            public DateTime FormattedPublicProperty { get; } = DateTime.Now;
+            public double FormattedPublicProperty { get; } = 52.02947819434;
 
             [ParameterDefaultValue("Dracula")]
             public string PropertywithDefaultValue { get; } = null;
