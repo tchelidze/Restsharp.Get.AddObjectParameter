@@ -14,7 +14,7 @@
  
  # Example
  
- ``` 
+ ```c#
  public class ObjectParameterWithPublicPropertiesOnly
  {
      //  Parameter { Name : "SimplePublicProperty" , Value : "Value33" }
