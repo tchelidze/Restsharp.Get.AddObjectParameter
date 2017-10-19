@@ -10,7 +10,8 @@ namespace Restsharp.Get.AddObjectParameter.Attributes
     [AttributeUsage(AttributeTargets.Property)]
     public class ParameterNameAttribute : Attribute
     {
-        public ParameterNameAttribute(string parameterName) => ParameterName = parameterName;
+        public ParameterNameAttribute(string parameterName) 
+            => ParameterName = parameterName;
 
         public string ParameterName { get; }
     }

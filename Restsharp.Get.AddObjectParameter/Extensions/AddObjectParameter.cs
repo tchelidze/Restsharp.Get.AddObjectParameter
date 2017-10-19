@@ -24,8 +24,10 @@ namespace Restsharp.Get.AddObjectParameter.Extensions
                 .Where(it => it.DoesNotHaveCustomAttribute<ExcludeParameterAttribute>())
                 .Select(it => new Parameter
                 {
-                    Name = it.GetCustomAttribute<ParameterNameAttribute>()?.ParameterName ?? it.Name,
-                    Value = it.GetParameterValue(parameter)
+                    Name = it.GetParameterName(),
+                    Value = it.GetParameterValue(parameter),
+                    Type = it.GetParameterType(),
+                    ContentType = it.GetParameterContentType()
                 })
                 .Where(it => it.Value != null)
                 .ToList()
