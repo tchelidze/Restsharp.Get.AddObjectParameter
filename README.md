@@ -19,6 +19,10 @@
  {
      //  Parameter { Name : "SimplePublicProperty" , Value : "Value33" }
      public string SimplePublicProperty { get; } = "Value33";
+     
+     //  Parameter { Name : "ParaMeter" , Value : "Value11" }
+     [ParameterName("ParaMeter")]
+     public string CustomNamedParameter { get; } = "Value11";
 
      //  Parameter { Name : "ExplicitlyIncludedPrivateProperty" , Value : "2.343" }
      [IncludeParameter]     
