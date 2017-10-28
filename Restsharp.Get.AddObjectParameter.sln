@@ -1,13 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restsharp.Get.AddObjectParameter", "Restsharp.Get.AddObjectParameter\Restsharp.Get.AddObjectParameter.csproj", "{370206B3-BC6D-44D3-94CE-1125FC0C4DA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restsharp.Get.AddObjectParameter", "src\Restsharp.Get.AddObjectParameter\Restsharp.Get.AddObjectParameter.csproj", "{370206B3-BC6D-44D3-94CE-1125FC0C4DA6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restsharp.Get.AddObjectParameter.Spec", "Restsharp.Get.AddObjectParameter.Spec\Restsharp.Get.AddObjectParameter.Spec.csproj", "{F45319A4-BA4D-4A9E-8A14-B43123DC68EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restsharp.Get.AddObjectParameter.Spec", "test\Restsharp.Get.AddObjectParameter.Spec\Restsharp.Get.AddObjectParameter.Spec.csproj", "{F45319A4-BA4D-4A9E-8A14-B43123DC68EE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restsharp.Get.AddObjectParameter.Demo", "Restsharp.Get.AddObjectParameter.Demo\Restsharp.Get.AddObjectParameter.Demo.csproj", "{C9163203-2DD3-440F-B4AA-E783EDBC8911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Restsharp.Get.AddObjectParameter.Demo", "src\Restsharp.Get.AddObjectParameter.Demo\Restsharp.Get.AddObjectParameter.Demo.csproj", "{C9163203-2DD3-440F-B4AA-E783EDBC8911}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{275CD941-4498-4EC0-AE8C-2BD018BAFF6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3E519447-15F9-4D99-A643-24CFFC8DACEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{370206B3-BC6D-44D3-94CE-1125FC0C4DA6} = {275CD941-4498-4EC0-AE8C-2BD018BAFF6A}
+		{F45319A4-BA4D-4A9E-8A14-B43123DC68EE} = {3E519447-15F9-4D99-A643-24CFFC8DACEE}
+		{C9163203-2DD3-440F-B4AA-E783EDBC8911} = {275CD941-4498-4EC0-AE8C-2BD018BAFF6A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F563B692-B482-4B16-B7F6-7B0054B916B1}
