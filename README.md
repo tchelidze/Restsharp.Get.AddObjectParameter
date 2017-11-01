@@ -48,6 +48,20 @@
      {
         public string ToString(string format) => $"Formatted as {format}";
      }
+ 
+     //  Parameter { Name : "FormateddObject" , Value : "Y" }            
+     [ParameterFormatter(typeof(BooleanParameterFormatter))]
+     public bool FormateddObject { get; } = true;
+
+
+     public class BooleanParameterFormatter : IParameterFormatter
+    {
+        public string Format(object parameterValue)
+        {
+            var parameterBooleanValue = (bool)parameterValue;
+            return parameterBooleanValue ? "Y" : "N";
+        }
+    }
 }
 
  var request = new RestRequest("resource/{id}", Method.POST); 
